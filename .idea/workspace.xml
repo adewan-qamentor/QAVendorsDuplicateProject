@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07bd841c-d1a3-4210-8fe9-5c95c58f9bc9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="QAVendorsProject" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gj1aMerpmLjX1aJ9b6fTxq4gGG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BestWorkspace2020\QAVendorsProject\src\test\resources\features" />
+      <recent name="D:\BestWorkspace2020\QAVendorsProject\src\test\resources" />
+      <recent name="D:\BestWorkspace2020\QAVendorsProject\src\test\java\com\stepDefinition" />
+      <recent name="D:\BestWorkspace2020\QAVendorsProject\src\test\java\com\executor" />
+      <recent name="D:\BestWorkspace2020\QAVendorsProject\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Scenario: QAVendors pagination verification after keyword search">
+    <configuration name="Feature: PagintionOnKeywordSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/PagintionOnKeywordSearch.feature" />
+      <option name="GLUE" value="com.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="QAVendorsProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: PagintionOnKeywordSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: QAVendors Header Verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/VerifyQAVendorsHeaders.feature" />
+      <option name="GLUE" value="com.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="QAVendorsProject" />
+      <option name="NAME_FILTER" value="^QAVendors Header Verification$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^QAVendors Header Verification$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: QAVendors Header Verification" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: QAVendors pagination verification after keyword search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/PagintionOnKeywordSearch.feature" />
+      <option name="GLUE" value="com.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="QAVendorsProject" />
+      <option name="NAME_FILTER" value="^QAVendors pagination verification after keyword search$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^QAVendors pagination verification after keyword search$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: QAVendors pagination verification after keyword search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User registration with Silver plan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/QAVendorsSilverRegisteration.feature" />
+      <option name="GLUE" value="com.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="QAVendorsProject" />
+      <option name="NAME_FILTER" value="^User registration with Silver plan$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User registration with Silver plan$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User registration with Silver plan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAVendorsProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.executor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.executor" />
+      <option name="MAIN_CLASS_NAME" value="com.executor.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Scenario: QAVendors pagination verification after keyword search" />
+        <item itemvalue="Cucumber java.Scenario: QAVendors Header Verification" />
+        <item itemvalue="Cucumber java.Feature: PagintionOnKeywordSearch" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber java.Scenario: User registration with Silver plan" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07bd841c-d1a3-4210-8fe9-5c95c58f9bc9" name="Default Changelist" comment="" />
+      <created>1598613249925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598613249925</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="3" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598617834964">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="96" y="3" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1598617834964" />
+    <state x="330" y="155" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599065490246">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="330" y="155" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1599065490246" />
+    <state x="321" y="84" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600256741935">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="321" y="84" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1600256741935" />
+    <state x="315" y="275" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599843516133">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="315" y="275" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.689@0.0.1280.689" timestamp="1599843516133" />
+    <state x="443" y="214" width="394" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599491318785">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="443" y="214" width="394" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.689@0.0.1280.689" timestamp="1599491318785" />
+    <state width="396" height="466" key="DebuggerActiveHint" timestamp="1599141574482">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="396" height="466" key="DebuggerActiveHint/0.0.1280.689@0.0.1280.689" timestamp="1599141574482" />
+    <state width="1237" height="259" key="GridCell.Tab.0.bottom" timestamp="1600259882400">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="259" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1600259882400" />
+    <state width="1237" height="259" key="GridCell.Tab.0.center" timestamp="1600259882400">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="259" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1600259882400" />
+    <state width="1237" height="259" key="GridCell.Tab.0.left" timestamp="1600259882400">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="259" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1600259882400" />
+    <state width="1237" height="259" key="GridCell.Tab.0.right" timestamp="1600259882400">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="259" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1600259882400" />
+    <state width="1237" height="198" key="GridCell.Tab.1.bottom" timestamp="1599147335946">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="198" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1599147335946" />
+    <state width="1237" height="198" key="GridCell.Tab.1.center" timestamp="1599147335946">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="198" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1599147335946" />
+    <state width="1237" height="198" key="GridCell.Tab.1.left" timestamp="1599147335946">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="198" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1599147335946" />
+    <state width="1237" height="198" key="GridCell.Tab.1.right" timestamp="1599147335946">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="198" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1599147335946" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1599067281231">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1599067281231" />
+    <state x="349" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1600256859732">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="349" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1600256859732" />
+    <state x="346" y="101" width="588" height="488" key="find.popup" timestamp="1598629740604">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="346" y="101" width="588" height="488" key="find.popup/0.0.1280.689@0.0.1280.689" timestamp="1598629740604" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1599068127647">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1599068127647" />
+  </component>
+</project>

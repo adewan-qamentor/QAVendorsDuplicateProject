@@ -1,0 +1,832 @@
+<html>
+<head><style type="text/css">h1 {background-color:#9999CC}
+h2 {background-color:#BBBBCC}
+h3 {background-color:#DDDDFF}
+th {border:1px solid black;background-color:#CCCCDD;}
+td{border:1px solid black;}
+table {border:1px solid black;border-collapse: collapse;}
+.chart {border:0px none black;border-collapse: collapse;background-color: none;}
+.passed {background-color:lightgreen;font-weight:bold;color:darkgreen}
+.skipped {background-color:silver;font-weight:bold;color:darkgray}
+.failed {background-color:tomato;font-weight:bold;color:darkred}
+.undefined {background-color:gold;font-weight:bold;color:goldenrod}
+.known {background-color:goldenrod;font-weight:bold;color:darkred}
+.passed_description {background-color:#D0FFD0;font-weight:bold;font-style:italic;color:black}
+.failed_description {background-color:#FFA898;font-weight:bold;font-style:italic;color:black}
+.comment {font-family:courier;font-weight:normal;font-size:small;color:black;border:1px dashed black;background-color:silver}
+.tip {font-family:courier;font-weight:normal;font-size:small;color:white;background-color:black}
+OL { counter-reset: item }
+OL>LI { display: block }
+OL>LI:before { content: counters(item, ".") " "; counter-increment: item }
+
+div.header {
+    display: block; text-align: center;
+    position: running(header);
+}
+div.footer {
+    display: block; text-align: center;
+    position: running(footer);
+}
+div.content {page-break-after: always;}
+@page {
+	 size: auto;
+     @top-center {
+     	content: "Detailed Results Report";
+	    color: silver;
+	    font-size: 14px;
+     }
+     @top-right {
+     	content: date("dd MMM, yyyy hh:mm");
+	    color: silver;
+	    font-size: 8px;
+     }
+    @bottom-right {
+    	content: "Page " counter(page) " of " counter(pages) ;
+	    color: silver;
+	    font-size: 8px;
+    }
+}
+</style>
+<title>Detailed Results Report</title>
+<meta charset="UTF-8" />
+</head>
+  <body>
+    <div class='header'></div>
+    <div class='footer'></div>
+<h1>Overview</h1>
+
+
+<table>
+	<tr><th></th><th>Passed</th><th>Failed</th><th>Known</th><th>Undefined</th><th>Total</th><th>%Passed</th></tr>
+	<tr><th>Features</th>
+		<td class="passed" id="features_passed">2</td>
+		<td class="failed" id="features_failed">0</td>
+		<td class="known" id="features_known">0</td>
+		<td class="undefined" id="features_undefined">0</td>
+		<td id="features_total">2</td>
+		<td id="features_rate">
+				100%
+		</td>
+	</tr>
+	<tr><th>Scenarios</th>
+		<td class="passed" id="scenarios_passed">4</td>
+		<td class="failed" id="scenarios_failed">0</td>
+		<td class="known" id="scenarios_known">0</td>
+		<td class="undefined" id="scenarios_undefined">0</td>
+		<td id="scenarios_total">4</td>
+		<td id="scenarios_rate">
+				100%
+		</td>
+	</tr>
+	<tr><th>Steps</th>
+		<td class="passed" id="steps_passed">53</td>
+		<td class="failed" id="steps_failed">0</td>
+		<td class="known" id="steps_known">0</td>
+		<td class="undefined" id="steps_undefined">0</td>
+		<td id="steps_total">53</td>
+		<td id="steps_rate">
+				100%
+		</td>
+	</tr>
+</table>
+<div><b>Overall Duration: 0h 03m 58s</b></div>
+
+<a id="top"></a><h1>Table of Contents</h1>
+
+<ol>
+<li> <span class="passed"><a href="#feature-4verify-pagination-on-pages-after-keyword-search-on-qavendors-portal">Verify pagination on pages after keyword search on QAVendors portal</a></span>
+	<ol>
+        <li> <span class="passed"><a href="#sc-23-verify-pagination-on-pages-after-keyword-search-on-qavendors-portal;qavendors-pagination-verification-after-keyword-search;;2">QAVendors pagination verification after keyword search</a></span></li>
+        <li> <span class="passed"><a href="#sc-24-verify-pagination-on-pages-after-keyword-search-on-qavendors-portal;qavendors-pagination-verification-after-keyword-search;;3">QAVendors pagination verification after keyword search</a></span></li>
+        <li> <span class="passed"><a href="#sc-25-verify-pagination-on-pages-after-keyword-search-on-qavendors-portal;qavendors-pagination-verification-after-keyword-search;;4">QAVendors pagination verification after keyword search</a></span></li>
+    </ol></li>
+<li> <span class="passed"><a href="#feature-4verify-headers-and-sub-headers-on-qavendors-portal">Verify Headers and sub headers on QAVendors portal</a></span>
+	<ol>
+        <li> <span class="passed"><a href="#sc-10-verify-headers-and-sub-headers-on-qavendors-portal;qavendors-header-verification">QAVendors Header Verification</a></span></li>
+    </ol></li>
+</ol>
+
+<h1>Detailed Results Report</h1>
+
+<table width="700px">
+	<tr class="passed"><td colspan="4"><b>Feature:</b> <a id="feature-4verify-pagination-on-pages-after-keyword-search-on-qavendors-portal">Verify pagination on pages after keyword search on QAVendors portal</a></td></tr>
+    <tr class="passed">
+    	<td><small><b>Passed:</b> 3</small></td>
+        <td><small><b>Failed:</b> 0</small></td>
+        <td><small><b>Undefined:</b> 0</small></td>
+        <td><small>Duration: 68.5s</small></td>
+    </tr>
+	<tr class="passed">
+		<td colspan="4" style="padding-left:20px">
+		<table width="100%">
+				<tr class="passed">
+					<td colspan="4">
+						<b>Scenario Outline:</b> <a id="sc-23-verify-pagination-on-pages-after-keyword-search-on-qavendors-portal;qavendors-pagination-verification-after-keyword-search;;2">QAVendors pagination verification after keyword search</a>
+					</td>
+				</tr>
+                <tr class="passed">
+                	<td><small><b>Passed:</b> 10</small></td>
+                	<td><small><b>Failed:</b> 0</small></td>
+					<td><small><b>Undefined:</b> 0</small></td>
+					<td><small>Duration: 47.95s</small></td>
+				</tr>
+					<tr class="passed">
+						<td>Before</td>
+						<td colspan="2"></td>
+						<td width="100">0.00s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+                		</td>
+                	</tr>
+                <tr class="passed">
+	                <td colspan="4" style="padding-left:20px">
+						<table width="100%">
+                            	<tr class="passed">
+                            		<td><b>Given </b> browser is &quot;chrome&quot;</td>
+                            		<td width="100">6.67s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Given </b> user navigates to the QAVendors App</td>
+                            		<td width="100">14.95s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Navigated to https://qavendors.com
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;Top and Best qa testing outsourcing companies - Qavendors.com&quot; in the app</td>
+                            		<td width="100">2.28s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Top and Best qa testing outsourcing companies - Qavendors.com verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user enters &quot;testing&quot; in the keyword search box</td>
+                            		<td width="100">0.49s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user presses Enter key</td>
+                            		<td width="100">4.96s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;QA Testing Vendors - Find &amp; Compare QA Vendors Professionals&quot; in the app</td>
+                            		<td width="100">2.04s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+QA Testing Vendors - Find &amp; Compare QA Vendors Professionals verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user embed the &quot;result page&quot; screenshot in the report</td>
+                            		<td width="100">0.50s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/23_verify_pagination_on_pages_after_keyword_search_on_qavendors_portal_qavendors_pagination_verification_after_keyword_search__21600258952670.png" width="200px" /></td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> page should display number of records shown on page with total number of records</td>
+                            		<td width="100">0.09s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+[[ChromeDriver: chrome on WINDOWS (ab6fec643d57224429f45e03e6c5c9ab)] -&gt; css selector: div.col-sm-4.nopad.bmargin] visible
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user clicks on next button in pagination till last record is shown and take screenshot for every page</td>
+                            		<td width="100">8.62s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/23_verify_pagination_on_pages_after_keyword_search_on_qavendors_portal_qavendors_pagination_verification_after_keyword_search__21600258952671.png" width="200px" /></td>
+									</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+QA Testing Vendors - Find &amp; Compare QA Vendors Professionals verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user clicks on previous button in pagination till first record is shown</td>
+                            		<td width="100">7.30s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+QA Testing Vendors - Find &amp; Compare QA Vendors Professionals verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+						</table>
+					</td>
+				</tr>
+				
+					<tr class="passed">
+						<td>After</td>
+						<td colspan="2"></td>
+						<td width="100">0.06s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+						</td>
+                	</tr>
+                <tr><td colspan="5"><sup><a href="#top">Back to Table of Contents</a></sup></td></tr>
+				<tr class="passed">
+					<td colspan="4">
+						<b>Scenario Outline:</b> <a id="sc-24-verify-pagination-on-pages-after-keyword-search-on-qavendors-portal;qavendors-pagination-verification-after-keyword-search;;3">QAVendors pagination verification after keyword search</a>
+					</td>
+				</tr>
+                <tr class="passed">
+                	<td><small><b>Passed:</b> 10</small></td>
+                	<td><small><b>Failed:</b> 0</small></td>
+					<td><small><b>Undefined:</b> 0</small></td>
+					<td><small>Duration: 9.61s</small></td>
+				</tr>
+					<tr class="passed">
+						<td>Before</td>
+						<td colspan="2"></td>
+						<td width="100">0.00s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+                		</td>
+                	</tr>
+                <tr class="passed">
+	                <td colspan="4" style="padding-left:20px">
+						<table width="100%">
+                            	<tr class="passed">
+                            		<td><b>Given </b> browser is &quot;chrome&quot;</td>
+                            		<td width="100">0.00s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Given </b> user navigates to the QAVendors App</td>
+                            		<td width="100">1.46s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Navigated to https://qavendors.com
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;Top and Best qa testing outsourcing companies - Qavendors.com&quot; in the app</td>
+                            		<td width="100">2.01s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Top and Best qa testing outsourcing companies - Qavendors.com verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user enters &quot;software&quot; in the keyword search box</td>
+                            		<td width="100">0.58s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user presses Enter key</td>
+                            		<td width="100">2.94s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;QA Testing Vendors - Find &amp; Compare QA Vendors Professionals&quot; in the app</td>
+                            		<td width="100">2.01s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+QA Testing Vendors - Find &amp; Compare QA Vendors Professionals verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user embed the &quot;result page&quot; screenshot in the report</td>
+                            		<td width="100">0.45s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/24_verify_pagination_on_pages_after_keyword_search_on_qavendors_portal_qavendors_pagination_verification_after_keyword_search__31600258952683.png" width="200px" /></td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> page should display number of records shown on page with total number of records</td>
+                            		<td width="100">0.09s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+[[ChromeDriver: chrome on WINDOWS (ab6fec643d57224429f45e03e6c5c9ab)] -&gt; css selector: div.col-sm-4.nopad.bmargin] visible
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user clicks on next button in pagination till last record is shown and take screenshot for every page</td>
+                            		<td width="100">0.02s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user clicks on previous button in pagination till first record is shown</td>
+                            		<td width="100">0.00s</td>
+                        		</tr>
+						</table>
+					</td>
+				</tr>
+				
+					<tr class="passed">
+						<td>After</td>
+						<td colspan="2"></td>
+						<td width="100">0.05s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+						</td>
+                	</tr>
+                <tr><td colspan="5"><sup><a href="#top">Back to Table of Contents</a></sup></td></tr>
+				<tr class="passed">
+					<td colspan="4">
+						<b>Scenario Outline:</b> <a id="sc-25-verify-pagination-on-pages-after-keyword-search-on-qavendors-portal;qavendors-pagination-verification-after-keyword-search;;4">QAVendors pagination verification after keyword search</a>
+					</td>
+				</tr>
+                <tr class="passed">
+                	<td><small><b>Passed:</b> 10</small></td>
+                	<td><small><b>Failed:</b> 0</small></td>
+					<td><small><b>Undefined:</b> 0</small></td>
+					<td><small>Duration: 10.94s</small></td>
+				</tr>
+					<tr class="passed">
+						<td>Before</td>
+						<td colspan="2"></td>
+						<td width="100">0.00s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+                		</td>
+                	</tr>
+                <tr class="passed">
+	                <td colspan="4" style="padding-left:20px">
+						<table width="100%">
+                            	<tr class="passed">
+                            		<td><b>Given </b> browser is &quot;chrome&quot;</td>
+                            		<td width="100">0.00s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Given </b> user navigates to the QAVendors App</td>
+                            		<td width="100">1.47s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Navigated to https://qavendors.com
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;Top and Best qa testing outsourcing companies - Qavendors.com&quot; in the app</td>
+                            		<td width="100">2.02s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Top and Best qa testing outsourcing companies - Qavendors.com verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user enters &quot;technologies&quot; in the keyword search box</td>
+                            		<td width="100">0.54s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user presses Enter key</td>
+                            		<td width="100">4.31s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;QA Testing Vendors - Find &amp; Compare QA Vendors Professionals&quot; in the app</td>
+                            		<td width="100">2.01s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+QA Testing Vendors - Find &amp; Compare QA Vendors Professionals verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user embed the &quot;result page&quot; screenshot in the report</td>
+                            		<td width="100">0.42s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/25_verify_pagination_on_pages_after_keyword_search_on_qavendors_portal_qavendors_pagination_verification_after_keyword_search__41600258952684.png" width="200px" /></td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> page should display number of records shown on page with total number of records</td>
+                            		<td width="100">0.09s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+[[ChromeDriver: chrome on WINDOWS (ab6fec643d57224429f45e03e6c5c9ab)] -&gt; css selector: div.col-sm-4.nopad.bmargin] visible
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user clicks on next button in pagination till last record is shown and take screenshot for every page</td>
+                            		<td width="100">0.03s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user clicks on previous button in pagination till first record is shown</td>
+                            		<td width="100">0.00s</td>
+                        		</tr>
+						</table>
+					</td>
+				</tr>
+				
+					<tr class="passed">
+						<td>After</td>
+						<td colspan="2"></td>
+						<td width="100">0.05s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+						</td>
+                	</tr>
+                <tr><td colspan="5"><sup><a href="#top">Back to Table of Contents</a></sup></td></tr>
+		</table>
+	</td></tr><tr><td colspan="5"></td></tr>
+	<tr class="passed"><td colspan="4"><b>Feature:</b> <a id="feature-4verify-headers-and-sub-headers-on-qavendors-portal">Verify Headers and sub headers on QAVendors portal</a></td></tr>
+    <tr class="passed">
+    	<td><small><b>Passed:</b> 1</small></td>
+        <td><small><b>Failed:</b> 0</small></td>
+        <td><small><b>Undefined:</b> 0</small></td>
+        <td><small>Duration: 109.52s</small></td>
+    </tr>
+	<tr class="passed">
+		<td colspan="4" style="padding-left:20px">
+		<table width="100%">
+				<tr class="passed">
+					<td colspan="4">
+						<b>Scenario:</b> <a id="sc-10-verify-headers-and-sub-headers-on-qavendors-portal;qavendors-header-verification">QAVendors Header Verification</a>
+					</td>
+				</tr>
+                <tr class="passed">
+                	<td><small><b>Passed:</b> 23</small></td>
+                	<td><small><b>Failed:</b> 0</small></td>
+					<td><small><b>Undefined:</b> 0</small></td>
+					<td><small>Duration: 109.52s</small></td>
+				</tr>
+					<tr class="passed">
+						<td>Before</td>
+						<td colspan="2"></td>
+						<td width="100">0.00s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+                		</td>
+                	</tr>
+                <tr class="passed">
+	                <td colspan="4" style="padding-left:20px">
+						<table width="100%">
+                            	<tr class="passed">
+                            		<td><b>Given </b> browser is &quot;chrome&quot;</td>
+                            		<td width="100">0.00s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Given </b> user navigates to the QAVendors App</td>
+                            		<td width="100">1.57s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Navigated to https://qavendors.com
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;Top and Best qa testing outsourcing companies - Qavendors.com&quot; in the app</td>
+                            		<td width="100">2.02s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Top and Best qa testing outsourcing companies - Qavendors.com verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user clicks on &quot;HOME&quot; Header</td>
+                            		<td width="100">2.11s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;Top and Best qa testing outsourcing companies - Qavendors.com&quot; in the app</td>
+                            		<td width="100">2.01s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Top and Best qa testing outsourcing companies - Qavendors.com verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user embed the &quot;Home&quot; screenshot in the report</td>
+                            		<td width="100">0.86s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952684.png" width="200px" /></td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user clicks on below sub-headers and verify their respective page with screenshot in &quot;ABOUT US&quot; header</td>
+                            		<td width="100">13.33s</td>
+                        		</tr>
+	 								<tr class="passed">
+	 									<td style="padding-left:20px" colspan="2">
+	 										<table>
+	 											<tr>
+	 													<td>Who We Are</td>
+												</tr>
+	 											<tr>
+	 													<td>How to choose the right QA Vendor</td>
+												</tr>
+            								</table>
+        								</td>
+    								</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952685.png" width="200px" /></td>
+									</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952686.png" width="200px" /></td>
+									</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+https://www.qavendors.com/who-we-are verified
+https://www.qavendors.com/How-to-choose-the-right-QA-Vendor verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user clicks on &quot;HOW IT WORKS&quot; Header</td>
+                            		<td width="100">3.64s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;How it works - qavendors.com&quot; in the app</td>
+                            		<td width="100">2.03s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+How it works - qavendors.com verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user embed the &quot;HOW IT WORKS&quot; screenshot in the report</td>
+                            		<td width="100">0.82s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952687.png" width="200px" /></td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user clicks on &quot;QA VENDORS&quot; Header</td>
+                            		<td width="100">4.23s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;QA Vendors Listings - Find QA Testing Vendor Listings&quot; in the app</td>
+                            		<td width="100">2.02s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+QA Vendors Listings - Find QA Testing Vendor Listings verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user embed the &quot;QA VENDORS&quot; screenshot in the report</td>
+                            		<td width="100">0.59s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952688.png" width="200px" /></td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user clicks on &quot;GET MATCHED&quot; Header</td>
+                            		<td width="100">4.49s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;Connect With QA Testing Vendors - Request Free Informations&quot; in the app</td>
+                            		<td width="100">2.01s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Connect With QA Testing Vendors - Request Free Informations verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user embed the &quot;GET MATCHED&quot; screenshot in the report</td>
+                            		<td width="100">0.88s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952689.png" width="200px" /></td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user clicks on below sub-headers and verify their respective page with screenshot in &quot; RESOURCES&quot; header</td>
+                            		<td width="100">55.64s</td>
+                        		</tr>
+	 								<tr class="passed">
+	 									<td style="padding-left:20px" colspan="2">
+	 										<table>
+	 											<tr>
+	 													<td>Our Blog</td>
+												</tr>
+	 											<tr>
+	 													<td>Articles</td>
+												</tr>
+	 											<tr>
+	 													<td>Deals &amp; Promotions</td>
+												</tr>
+	 											<tr>
+	 													<td>Photos</td>
+												</tr>
+	 											<tr>
+	 													<td>Reviews</td>
+												</tr>
+	 											<tr>
+	 													<td>QA Tools</td>
+												</tr>
+	 											<tr>
+	 													<td>Videos</td>
+												</tr>
+	 											<tr>
+	 													<td>Jobs</td>
+												</tr>
+	 											<tr>
+	 													<td>Events</td>
+												</tr>
+            								</table>
+        								</td>
+    								</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952690.png" width="200px" /></td>
+									</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952691.png" width="200px" /></td>
+									</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952692.png" width="200px" /></td>
+									</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952693.png" width="200px" /></td>
+									</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952694.png" width="200px" /></td>
+									</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952695.png" width="200px" /></td>
+									</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952696.png" width="200px" /></td>
+									</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952697.png" width="200px" /></td>
+									</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952698.png" width="200px" /></td>
+									</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+QA Vendors Blog Articles - Find QA Testing Vendor Blog Articles verified
+QA Vendors Articles - Find QA Testing Vendor Articles verified
+QA Vendors Deals &amp; Promotions - Find QA Testing Vendor Deals &amp; Promotions verified
+QA Vendors Photo Albums - Find QA Testing Vendor Photo Albums verified
+QA Vendors Reviews - Find QA Testing Vendor Reviews verified
+QA Vendors Tools - Find QA Testing Vendor Tools verified
+QA Vendors Videos - Find QA Testing Vendor Videos verified
+QA Vendors Job Openings - Find QA Testing Vendor Job Openings verified
+QA Vendors Events - Find QA Testing Vendor Events verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user clicks on &quot;JOIN TODAY&quot; Header</td>
+                            		<td width="100">3.40s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;Join QAvendors.com - Today!&quot; in the app</td>
+                            		<td width="100">2.02s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Join QAvendors.com - Today! verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user embed the &quot;JOIN TODAY&quot; screenshot in the report</td>
+                            		<td width="100">0.90s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952698.png" width="200px" /></td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user clicks on &quot;CONTACT US&quot; Header</td>
+                            		<td width="100">2.14s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verify the title &quot;Contact Us - qavendors.com&quot; in the app</td>
+                            		<td width="100">2.22s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Contact Us - qavendors.com verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user embed the &quot;CONTACT US&quot; screenshot in the report</td>
+                            		<td width="100">0.58s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2"><img src="../screenshots/10_verify_headers_and_sub_headers_on_qavendors_portal_qavendors_header_verification1600258952699.png" width="200px" /></td>
+									</tr>
+						</table>
+					</td>
+				</tr>
+				
+					<tr class="passed">
+						<td>After</td>
+						<td colspan="2"></td>
+						<td width="100">0.04s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+						</td>
+                	</tr>
+                <tr><td colspan="5"><sup><a href="#top">Back to Table of Contents</a></sup></td></tr>
+		</table>
+	</td></tr><tr><td colspan="5"></td></tr>
+</table>
+
+	</body>
+</html>
